@@ -1,0 +1,31 @@
+*{
+    border-collapse: collapse;
+    --padding-size: 20px;
+}
+thead>tr>td {
+padding: 10px 10px;
+ background-color: lightskyblue;
+}
+td {
+    padding:var(--padding-size)
+}
+tbody>tr:nth-child(2n+2)>td:first-child{
+    background-color: lightgreen;
+}
+tbody>tr:nth-child(2n+1)>td:first-child{
+    background-color: green;
+    color: white;
+}
+tbody>tr:nth-child(2n+2){
+    background-color: gray;
+}
+tbody>tr:nth-child(2n+1){
+    background-color: lightgray;   
+}
+tfoot>tr>td:first-child{
+    background-color: green;
+}
+td>span{
+    background-color: blue ;
+    color: white;
+}
